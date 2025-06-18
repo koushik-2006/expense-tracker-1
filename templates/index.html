@@ -24,25 +24,21 @@
 
     <body onload="configureLanding()">
         <div id="header-container">
-            <header>
-                <img id='large-logo' src="../static/images/CharyLogo.svg" onclick="homeAction()" alt='Chary logo'>
-                <img id='toggle-icon' class="hamburg icon" src="../static/images/hamburger-icon.svg" onclick="toggleMenu()" alt="toggle menu button">
+            <header><div class="logo-title"><img id='large-logo' src="../static/images/CharyLogo.svg" onclick="homeAction()" alt='Chary logo'><span id="expHeading" style="font-size: 40px; font-weight: bold; color: #333; margin-left: 10px;">EXPENZO</span></div><img id='toggle-icon' class="hamburg icon" src="../static/images/hamburger-icon.svg" onclick="toggleMenu()" alt="toggle menu button"><nav id="website-nav">~ KOUSHIK S</nav></header>
 
-                <nav id="website-nav">{{nav | safe}}</nav>
-            </header>
         </div>
 
         <div class="content non-header" id="landing-hero">
             <div id="hero-text">
-                <h1 id="hero1">Spend your money charily!</h1>
+                <h1 id="hero1">Spend your money💳 🪙in EXPENZO And Track Your Expenses 📈</h1>
                 <svg id="hero2" height="140" width="530">
                     <text x="0" y="10" stroke-width="7" paint-order="stroke">
-                        <tspan x="0" dx="0" dy="35">Keep track of your daily spendings with Chary; Visualize</tspan>
+                        <tspan x="0" dx="0" dy="35">Keep track of your daily spendings with EXPENZO Visualize</tspan>
                         <tspan x="0" dx="0" dy="35">your expenses and make budgeting plans to achieve your</tspan>
                         <tspan x="0" dx="0" dy="35">money-saving goals</tspan>
                     </text>
                 </svg>
-                <h3 id="hero2-mobile">Keep track of your daily spendings with Chary; Visualize your expenses and make budgeting plans to achieve your money-saving goals</h3>
+                <h3 id="hero2-mobile">Keep track of your daily spendings with EXPENZO Visualize your expenses and make budgeting plans to achieve your money-saving goals</h3>
                 <div id="hero3">
                     {% if loggedIn %}
                         <button class="cta-button" onclick="dashboardAction()">Dashboard</button>
@@ -66,15 +62,21 @@
         <div class="non-header" id="landing-info">
             <div class="info-box" id="info1">
                 <img class="number" src="../static/images/undraw_pie_chart.svg" alt="Person pulling on a piece of a pie chart">
-                <h3><span class="subhead">Customize Budgets</span><br>For recurring expenses and earnings, we've got you covered! Chary's flexible updating system will allow you to select all, one, or future entries for editing.</h3>
+                <h3><span class="subhead">𝚃𝚊𝚒𝚕𝚘𝚛 𝚈𝚘𝚞𝚛 𝙱𝚞𝚍𝚐𝚎𝚝, 𝙼𝚊𝚜𝚝𝚎𝚛 𝚈𝚘𝚞𝚛 𝙼𝚘𝚗𝚎𝚢</span><br>No more one-size-fits-all plans — design budgets that match your lifestyle.
+Set spending limits, track progress, and stay in control.
+Your financial journey, fully personalized.</h3>
             </div>
             <div class="info-box" id="info2">
                 <img class="number" src="../static/images/undraw_gone_shopping.svg" alt="Person shopping with a hand-held basket">
-                <h3><span class="subhead">Log Expenses</span><br> As you make purchases, log the costs through your Chary dashboard. We will update your budgets to reflect the changes and show you all the updated stats!</h3>
+                <h3><span class="subhead">𝙻𝚘𝚐 𝚂𝚖𝚊𝚛𝚝, 𝚂𝚙𝚎𝚗𝚍 𝚂𝚖𝚊𝚛𝚝𝚎𝚛</span><br> Effortlessly record every expense — big or small — in seconds.
+Stay organized with real-time tracking and clear categories.
+Know where your money goes, always.</h3>
             </div>
             <div class="info-box" id="info3">
                 <img class="number" src="../static/images/undraw_statistics.svg" alt="Two people holding up a large data presentation">
-                <h3><span class="subhead">View Analytics</span><br> We'll let you know how you are doing—and if you need to reduce spending to reach your goals. We'll do all the calculations and chart-making for you!</h3>
+                <h3><span class="subhead">𝚂𝚎𝚎 𝚝𝚑𝚎 𝚂𝚝𝚘𝚛𝚢 𝙱𝚎𝚑𝚒𝚗𝚍 𝚈𝚘𝚞𝚛 𝚂𝚙𝚎𝚗𝚍𝚒𝚗𝚐</span><br> Turn your data into clear, visual insights that make sense.
+Track trends, compare categories, and spot saving opportunities.
+Your money habits — decoded and displayed.</h3>
             </div>
         </div>
 
