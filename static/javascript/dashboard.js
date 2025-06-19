@@ -156,7 +156,8 @@ function loadBudgetTab(budgets=userData.budgets) {
     addButton.id = "add-budget-button";
     addButton.classList.add("add-icon");
     const addIcon = document.createElement("img");
-    addIcon.src = "../static/images/PlusIcon.svg";
+    addIcon.src = "..
+https://koushik-2006.github.io/expense-tracker-1/static/images/PlusIcon.svg";
     addIcon.alt = "Add icon";
     addButton.append(addIcon);
 
@@ -174,7 +175,7 @@ function loadBudgetTab(budgets=userData.budgets) {
             filterIcon.title = "Show";
         }
     });
-    filterIcon.src = "../static/images/FilterIcon.svg";
+    filterIcon.src = "..https://koushik-2006.github.io/expense-tracker-1/static/images/FilterIcon.svg";
     filterIcon.classList.add("filter-img", "icon");
     filterIcon.alt = "Filter icon";
 
@@ -214,7 +215,8 @@ function loadEarningTab(earnings=userData.earnings) {
     addButton.id = "add-earning-button";
     addButton.classList.add("add-icon");
     const addIcon = document.createElement("img");
-    addIcon.src="../static/images/PlusIcon.svg";
+    addIcon.src="..
+https://koushik-2006.github.io/expense-tracker-1/static/images/PlusIcon.svg";
     addIcon.alt = "Add icon";
     addButton.append(addIcon);
 
@@ -232,7 +234,7 @@ function loadEarningTab(earnings=userData.earnings) {
             filterIcon.title = "Show";
         }
     });
-    filterIcon.src = "../static/images/FilterIcon.svg";
+    filterIcon.src = "..https://koushik-2006.github.io/expense-tracker-1/static/images/FilterIcon.svg";
     filterIcon.classList.add("filter-img", "icon");
     filterIcon.alt = "Filter icon";
 
@@ -277,7 +279,8 @@ function loadExpenseTab(expenses=userData.expenses) {
     addButton.id = 'add-expense-button';
     addButton.classList.add("add-icon");
     const addIcon = document.createElement("img");
-    addIcon.src="../static/images/PlusIcon.svg";
+    addIcon.src="..
+https://koushik-2006.github.io/expense-tracker-1/static/images/PlusIcon.svg";
     addIcon.alt = "Add icon";
     addButton.append(addIcon);
 
@@ -295,7 +298,7 @@ function loadExpenseTab(expenses=userData.expenses) {
             filterIcon.title = "Show";
         }
     });
-    filterIcon.src = "../static/images/FilterIcon.svg";
+    filterIcon.src = "..https://koushik-2006.github.io/expense-tracker-1/static/images/FilterIcon.svg";
     filterIcon.classList.add("filter-img", "icon");
     filterIcon.alt = "Filter icon";
 
@@ -539,7 +542,8 @@ function generateOverviewBudgets(budgets) {
     addButton.id = "add-budget-button";
     addButton.classList.add("add-icon");
     const addIcon = document.createElement("img");
-    addIcon.src = "../static/images/PlusIcon.svg";
+    addIcon.src = "..
+https://koushik-2006.github.io/expense-tracker-1/static/images/PlusIcon.svg";
     addIcon.alt = "Add icon";
     addButton.append(addIcon);
     overviewBudgetContainer.append(addButton);
@@ -1013,7 +1017,8 @@ function generateOverviewExpenses() {
     addButton.id = 'add-expense-button';
     addButton.classList.add("add-icon");
     const addIcon = document.createElement("img");
-    addIcon.src="../static/images/PlusIcon.svg";
+    addIcon.src="..
+https://koushik-2006.github.io/expense-tracker-1/static/images/PlusIcon.svg";
     addIcon.alt = "Add icon";
     addButton.append(addIcon);
 
@@ -1040,7 +1045,8 @@ function generateOverviewEarnings() {
     addButton.id = "add-earning-button";
     addButton.classList.add("add-icon");
     const addIcon = document.createElement("img");
-    addIcon.src="../static/images/PlusIcon.svg";
+    addIcon.src="..
+https://koushik-2006.github.io/expense-tracker-1/static/images/PlusIcon.svg";
     addIcon.alt = "Add icon";
     addButton.append(addIcon);
 

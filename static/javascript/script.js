@@ -462,7 +462,7 @@ function closeMenu() {
         }
 
         // The menu is 'close' (or the 'X' icon). Change to hamburg
-        logo.src = "../static/images/hamburger-icon.svg";
+        logo.src = "..https://koushik-2006.github.io/expense-tracker-1/static/images/hamburger-icon.svg";
         logo.classList.replace('close', 'hamburg');
         navbar.style.width = '0%'
     }
@@ -475,12 +475,12 @@ function toggleMenu() {
     if(logo.display != 'none') {
         if(logo.classList.contains('hamburg')) {
             // Change to 'x' icon
-            logo.src = "../static/images/x-icon.svg";
+            logo.src = "..https://koushik-2006.github.io/expense-tracker-1/static/images/x-icon.svg";
             logo.classList.replace('hamburg', 'close');
             navbar.style.width = '70%';
         } else {
             // Change to 'hamburger' icon
-            logo.src = "../static/images/hamburger-icon.svg";
+            logo.src = "..https://koushik-2006.github.io/expense-tracker-1/static/images/hamburger-icon.svg";
             logo.classList.replace('close', 'hamburg');
             navbar.style.width = '0%';
         }
@@ -868,7 +868,7 @@ function generateProfileUI(username, email, color, img, currency) {
     currency_container.append(currency_label, user_currency);
 
     const edit_button = document.createElement('img');
-    edit_button.src = "../static/images/EditButtonSM.svg";
+    edit_button.src = "..https://koushik-2006.github.io/expense-tracker-1/static/images/EditButtonSM.svg";
     edit_button.classList.add('edit-img');
     edit_button.alt = "Edit Button"
     edit_button.addEventListener('click', function() {
@@ -1319,7 +1319,7 @@ function generateTableUI(type, entityList, currency, dateType, limit=null) {
 
 function createWarningIcon(message) {
     const warning = document.createElement("img");
-    warning.src = "../static/images/WarningIcon.svg";
+    warning.src = "..https://koushik-2006.github.io/expense-tracker-1/static/images/WarningIcon.svg";
     warning.classList.add('warning-icon');
     warning.title = message;
     warning.alt = "Warning message icon";
