@@ -55,7 +55,7 @@ def renderHome():
     return render_template('index.html', loggedIn=isLoggedIn(), nav=renderedNav())
 
 @app.route("/about")
-def renderAbout():
+def render🇦​🇧​🇴​🇺​🇹​():
     return render_template('about.html', loggedIn=isLoggedIn(), nav=renderedNav())
 
 @app.route("/login")
@@ -103,7 +103,7 @@ def renderedNav():
         return """
             <ul>
                 <li><a href='/'>Home</a></li>
-                <li><a href='/about'>About</a></li>
+                <li><a href='/about'>🇦​🇧​🇴​🇺​🇹​</a></li>
                 <li><a href='/dashboard'>Dashboard</a></li>
                 <div>
                     <img id='nav-profile-icon' class='profile-icon' src='../static/images/profileImages/undraw_blank.svg' alt='Profile image button that opens profile options'/>
@@ -118,7 +118,7 @@ def renderedNav():
         return """
             <ul>
                 <li><a href='/'>Home</a></li>
-                <li><a href='/about'>About</a></li>
+                <li><a href='/about'>🇦​🇧​🇴​🇺​🇹​</a></li>
                 <li><a href='/login'>Sign In</a></li>
                 <li><a href="/signup">Sign Up</a></li>
             </ul>

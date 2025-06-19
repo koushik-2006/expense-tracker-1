@@ -1,18 +1,22 @@
-# Chary
+💸✨ Expenzo – Where Every Rupee Counts ✨💸
 Definition:
-### chary /ˈtʃɛər i/ 
+### Expenzo •எக்ஸ்பென்சோ •ಎಕ್ಸ್‌ಪೆಂಜೊ •एक्सपेन्ज़ो •エクスペンゾ •
 ##### adjective
-    1. discreetly cautious
+    1.Discreetly aware of spending habits
 
-         a. hesitant and vigilant about dangers and risks
-    
-         b. slow to grant, accept, or expend
+    2.Quick to record and reflect on purchases
+
+    3.Cautious and mindful with every rupee spent 💸
          
-*“Chary.” Merriam-Webster.com Dictionary, Merriam-Webster,*
-*https://www.merriam-webster.com/dictionary/chary.*
 
-## Summary
-Chary is a **budgeting application** that keeps track of a user's budgets and expenses to help them reach their financial goals and spend less. Chary creates visuals that help users see exactly how much of their money goes into their set categories. For example, a user could have Chary keep track of how much money they spend a month on groceries versus takeout.
+
+## 🇸​🇺​🇲​🇲​🇦​🇷​🇾​
+Expenzo is a sleek, intuitive budgeting app built to help you take full control of your money. It tracks your spending and budgets in real time — making it easier to spend wisely, save better, and reach your financial goals faster.
+
+With stunning visual breakdowns, Expenzo helps you see exactly where your money is going — whether it’s groceries, subscriptions, or those extra weekend takeouts 🍔🛍️.
+
+🎯 Want to know how much you spent on food last month vs bills?
+📊 Expenzo shows it in a tap — clear, colorful, and easy to understand.
 
 Users can **login using Google** and their information is stored in a **firestore database** so that they can come back to their budgets at any time.
 
