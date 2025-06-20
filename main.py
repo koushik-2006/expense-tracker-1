@@ -106,7 +106,7 @@ def renderedNav():
                 <li><a href='/about'>🇦​🇧​🇴​🇺​🇹​</a></li>
                 <li><a href='/dashboard'>Dashboard</a></li>
                 <div>
-                    <img id='nav-profile-icon' class='profile-icon' src='..https://koushik-2006.github.io/expense-tracker-1/static/images/profileImages/undraw_blank.svg' alt='Profile image button that opens profile options'/>
+                    <img id='nav-profile-icon' class='profile-icon' src='https://koushik-2006.github.io/expense-tracker-1/static/images/profileImages/undraw_blank.svg' alt='Profile image button that opens profile options'/>
                     <div id='profile-options' style='display: none;'>
                         <a href='/profile'>Profile</a>
                         <a href='/logout'>Log Out</a>
