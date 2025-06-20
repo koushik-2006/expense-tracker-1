@@ -156,7 +156,7 @@ function loadBudgetTab(budgets=userData.budgets) {
     addButton.id = "add-budget-button";
     addButton.classList.add("add-icon");
     const addIcon = document.createElement("img");
-    addIcon.src = "..
+    addIcon.src = "
 https://koushik-2006.github.io/expense-tracker-1/static/images/PlusIcon.svg";
     addIcon.alt = "Add icon";
     addButton.append(addIcon);
@@ -175,7 +175,7 @@ https://koushik-2006.github.io/expense-tracker-1/static/images/PlusIcon.svg";
             filterIcon.title = "Show";
         }
     });
-    filterIcon.src = "..https://koushik-2006.github.io/expense-tracker-1/static/images/FilterIcon.svg";
+    filterIcon.src = "https:/koushik-2006.github.io/expense-tracker-1/static/images/FilterIcon.svg";
     filterIcon.classList.add("filter-img", "icon");
     filterIcon.alt = "Filter icon";
 
@@ -215,7 +215,7 @@ function loadEarningTab(earnings=userData.earnings) {
     addButton.id = "add-earning-button";
     addButton.classList.add("add-icon");
     const addIcon = document.createElement("img");
-    addIcon.src="..
+    addIcon.src="
 https://koushik-2006.github.io/expense-tracker-1/static/images/PlusIcon.svg";
     addIcon.alt = "Add icon";
     addButton.append(addIcon);
@@ -234,7 +234,7 @@ https://koushik-2006.github.io/expense-tracker-1/static/images/PlusIcon.svg";
             filterIcon.title = "Show";
         }
     });
-    filterIcon.src = "..https://koushik-2006.github.io/expense-tracker-1/static/images/FilterIcon.svg";
+    filterIcon.src = "https:/koushik-2006.github.io/expense-tracker-1/static/images/FilterIcon.svg";
     filterIcon.classList.add("filter-img", "icon");
     filterIcon.alt = "Filter icon";
 
@@ -298,7 +298,7 @@ https://koushik-2006.github.io/expense-tracker-1/static/images/PlusIcon.svg";
             filterIcon.title = "Show";
         }
     });
-    filterIcon.src = "..https://koushik-2006.github.io/expense-tracker-1/static/images/FilterIcon.svg";
+    filterIcon.src = "https:/koushik-2006.github.io/expense-tracker-1/static/images/FilterIcon.svg";
     filterIcon.classList.add("filter-img", "icon");
     filterIcon.alt = "Filter icon";
 
@@ -1017,7 +1017,7 @@ function generateOverviewExpenses() {
     addButton.id = 'add-expense-button';
     addButton.classList.add("add-icon");
     const addIcon = document.createElement("img");
-    addIcon.src="..
+    addIcon.src="
 https://koushik-2006.github.io/expense-tracker-1/static/images/PlusIcon.svg";
     addIcon.alt = "Add icon";
     addButton.append(addIcon);
